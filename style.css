@@ -201,6 +201,8 @@ body {
   margin-left: 40px;
 }
 
-@media screen and(max-width: 700px){
-    
+@media screen and (max-width: 650px) {
+    .header-esquerda, .header-centro, .icone-perfil, .perfil, .carrinho, .carrinho-info {
+        display: none;
+    }
 }
