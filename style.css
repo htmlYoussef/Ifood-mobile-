@@ -201,8 +201,44 @@ body {
   margin-left: 40px;
 }
 
-@media screen and (max-width: 650px) {
+
+.web{
+    display: block;
+}
+
+.mobile{
+    display: none;
+}
+
+@media screen and (max-width: 850px) {
     .header-esquerda, .header-centro, .icone-perfil, .perfil, .carrinho, .carrinho-info {
         display: none;
+    }
+    .caixa.amarelo{
+        width: 500px;
+        height: 200px;
+    }
+    .caixa.verde{
+        width: 500px;
+        height: 200px;
+    }
+    .caixa.azul{
+        width: 500px;
+        height: 200px;
+    }
+    .conteudo-principal{
+        flex-direction: column;
+        align-items: center;
+    }
+    .finalizar-pedido{
+        display: flex;
+    }
+
+    .web{
+        display: none;
+    }
+
+    .mobile{
+        display: block;
     }
 }
