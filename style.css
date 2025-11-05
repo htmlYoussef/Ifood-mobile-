@@ -235,9 +235,20 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-    }
-    .circulo{
-        position: relative; /* Define o posicionamento relativo */
+        position: relative; 
         left: 130px;
+    }
+    .circulo-vermelho{
+      background-color: red;
+      color: white;
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      left: 120px;
+      top: -20px;
     }
 }
