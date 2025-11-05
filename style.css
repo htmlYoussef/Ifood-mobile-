@@ -211,34 +211,29 @@ body {
 }
 
 @media screen and (max-width: 850px) {
-    .header-esquerda, .header-centro, .icone-perfil, .perfil, .carrinho, .carrinho-info {
-        display: none;
-    }
-    .caixa.amarelo{
-        width: 500px;
-        height: 200px;
-    }
-    .caixa.verde{
-        width: 500px;
-        height: 200px;
-    }
-    .caixa.azul{
-        width: 500px;
-        height: 200px;
-    }
-    .conteudo-principal{
-        flex-direction: column;
-        align-items: center;
-    }
-    .finalizar-pedido{
-        display: flex;
-    }
-
     .web{
         display: none;
     }
 
     .mobile{
         display: block;
+    }
+    .cabecalho2{
+      width: 100%;
+      height: 120px;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .circulo{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: gray;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
