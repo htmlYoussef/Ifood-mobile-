@@ -262,5 +262,22 @@ body {
       font-family: Arial, Helvetica, sans-serif;    
       font-size: 1.7rem;  
     }
-    
+    .rodapé{
+      display: flex;
+      justify-content: space-between; 
+      align-items: center;
+      padding: 10px 20px;
+      background-color: white;
+      color: gray;
+    }
+    .item{
+    flex: 1;                  
+    text-align: center;       
+    }
+    .item svg{
+    width: 24px;
+    height: 24px;
+    display: block;
+    margin: 0 auto 5px;
+    }
 }
